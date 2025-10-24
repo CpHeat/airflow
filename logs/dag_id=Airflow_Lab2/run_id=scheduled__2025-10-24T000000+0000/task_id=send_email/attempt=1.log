@@ -1,0 +1,9 @@
+{"timestamp":"2025-10-24T07:51:50.279390Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-10-24T07:51:50.281432Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/main.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-24T07:51:51.738837Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-10-24T07:51:51.739625Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-10-24T07:51:51.740532Z","level":"info","event":"Current task name:send_email","logger":"task.stdout"}
+{"timestamp":"2025-10-24T07:51:51.741119Z","level":"info","event":"Dag name:Airflow_Lab2","logger":"task.stdout"}
+{"timestamp":"2025-10-24T07:51:52.883924Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2025-10-24T07:51:52.884705Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2025-10-24T07:51:52.885580Z","level":"info","event":"Task operator:<Task(EmailOperator): send_email>","logger":"task.stdout"}

@@ -1,0 +1,16 @@
+{"timestamp":"2025-10-21T11:42:37.564833Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-10-21T11:42:37.565919Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/Flask_API.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-21T11:42:37.599416Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-10-21T11:42:37.600041Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-10-21T11:42:37.600777Z","level":"info","event":"Current task name:start_Flask_API","logger":"task.stdout"}
+{"timestamp":"2025-10-21T11:42:37.601179Z","level":"info","event":"Dag name:Airflow_Lab2_Flask","logger":"task.stdout"}
+{"timestamp":"2025-10-21T11:42:37.601717Z","level":"info","event":"Starting Flask on 0.0.0.0:5555 ...","logger":"task.stdout"}
+{"timestamp":"2025-10-21T11:42:37.604873Z","level":"info","event":" * Serving Flask app 'unusual_prefix_fb1fa9258fa1ad786b4829a3672e98fa2e7542a0_Flask_API'","logger":"task.stdout"}
+{"timestamp":"2025-10-21T11:42:37.605390Z","level":"info","event":" * Debug mode: off","logger":"task.stdout"}
+{"timestamp":"2025-10-21T11:42:37.605744Z","level":"error","event":"Address already in use","logger":"task.stderr"}
+{"timestamp":"2025-10-21T11:42:37.606010Z","level":"error","event":"Port 5555 is in use by another program. Either identify and stop that program, or start the server with a different port.","logger":"task.stderr"}
+{"timestamp":"2025-10-21T11:42:37.605158Z","level":"error","event":"Task exited","exit_code":1,"logger":"task","filename":"task_runner.py","lineno":990}
+{"timestamp":"2025-10-21T11:42:37.606714Z","level":"info","event":"Task instance in failure state","logger":"task.stdout"}
+{"timestamp":"2025-10-21T11:42:37.607357Z","level":"info","event":"Task start","logger":"task.stdout"}
+{"timestamp":"2025-10-21T11:42:37.608390Z","level":"info","event":"Task:<Task(PythonOperator): start_Flask_API>","logger":"task.stdout"}
+{"timestamp":"2025-10-21T11:42:37.608754Z","level":"info","event":"Failure caused by 1","logger":"task.stdout"}

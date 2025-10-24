@@ -1,0 +1,11 @@
+{"timestamp":"2025-10-24T07:51:50.411228Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-10-24T07:51:50.412459Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/main.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-24T07:51:51.712658Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-10-24T07:51:51.713589Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-10-24T07:51:51.714852Z","level":"info","event":"Current task name:my_trigger_task","logger":"task.stdout"}
+{"timestamp":"2025-10-24T07:51:51.715596Z","level":"info","event":"Dag name:Airflow_Lab2","logger":"task.stdout"}
+{"timestamp":"2025-10-24T07:51:51.713551Z","level":"info","event":"Triggering Dag Run.","trigger_dag_id":"Airflow_Lab2_Flask","logger":"task","filename":"task_runner.py","lineno":1052}
+{"timestamp":"2025-10-24T07:51:51.780310Z","level":"info","event":"Dag Run triggered successfully.","trigger_dag_id":"Airflow_Lab2_Flask","logger":"task","filename":"task_runner.py","lineno":1086}
+{"timestamp":"2025-10-24T07:51:51.856199Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2025-10-24T07:51:51.857012Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2025-10-24T07:51:51.857784Z","level":"info","event":"Task operator:<Task(TriggerDagRunOperator): my_trigger_task>","logger":"task.stdout"}
